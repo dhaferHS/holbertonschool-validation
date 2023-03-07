@@ -32,13 +32,13 @@ post: Create a blog post
 deploy: Deploy the website
 
 
-Prerequisites
+## Prerequisites
 To run this website, you need to have the following installed on your system:
 
 GoHugo [version number]
 [any other dependencies or libraries required]
 
-Lifecycle
+## Lifecycle
 This website follows the following steps for development and deployment:
 
 Clone the repository: git clone [repository URL]
