@@ -1,10 +1,9 @@
-module1_task2
-Introduction to DevOps: Automate Everything to Focus on What Really Matters
+module1_task2 Introduction to DevOps: Automate Everything to Focus on What Really Matters
 
 ## Prerequisites
 To run this website, you need to have the following installed on your system:
 
-GoHugo 
+GoHugo [version number]
 [any other dependencies or libraries required]
 
 ## Lifecycle
