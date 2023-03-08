@@ -1,7 +1,7 @@
 .PHONY: help
 
-# Display help message with list of targets
-help:
+
+help: ## Display help message with list of targets
 	@echo "Usage: make <target>"
 	@echo ""
 	@echo "Targets:"
@@ -14,15 +14,15 @@ help:
 	@echo "  make <target> --help"
 	@echo ""
 
-# Build the website
-build: 
+
+build: ## Build the website
 	@hugo
 
-# Clean up the build directory
-clean: 
+
+clean: ## Clean up the build directory
 	rm -rf dist/*
 
-# Create a new blog post
-post: 
+
+post: ## Create a new blog post
 	hugo new posts/$(POST_NAME).md
 	sed -i 's/title: .*/title: "$(POST_TITLE)"/' content/posts/$(POST_NAME).md
