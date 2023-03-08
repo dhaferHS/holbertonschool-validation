@@ -1,7 +1,7 @@
 .PHONY: help
 
-
-help: ## Display help message with list of targets
+## Display help message with list of targets
+help:
 	@echo "Usage: make <target>"
 	@echo ""
 	@echo "Targets:"
